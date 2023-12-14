@@ -5,10 +5,10 @@ pipeline{
     stages{
         stage('Lint Checks') {
             steps {
-                sh "echo ****** Starting Style Checks ****** "
-                sh "npm install jslint"
-                sh "/home/centos/node_modules/jslint/bin/jslint.js server.js || true"
-                sh "echo ****** Style Check are Completed ******"
+               script{
+                    helloWorld.info("Cart")
+                    nodeJs.lintChecks()
+                }
             }
         }
         stage('Static Code Analysis') {
