@@ -6,7 +6,7 @@
 // Simply declare environment variable like below
 env.COMPONENT="Cart"
 env.SONAR_URL="172.31.39.131"
-
+env.NEXUS_URL="172.31.86.85"
 nodeJs()
 
 // To see further use check nodeJs and helloWorld file in shared library
