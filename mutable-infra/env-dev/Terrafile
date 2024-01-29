@@ -1,0 +1,3 @@
+app:
+    source:  "https://github.com/Adnan-110/Terraform-module-mutableApp.git"
+    version: "main"
