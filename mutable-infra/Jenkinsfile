@@ -1,4 +1,4 @@
 @Library('Jenkins-Shared-Library') _ 
 
 env.COMPONENT="cart"
-backendInfra()
+appinfra()
