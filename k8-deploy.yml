@@ -47,7 +47,7 @@ metadata:
   name: cart-svc
 spec:
   selector:
-    'app:': cart
+    app: cart
   ports:
   - protocol: TCP
     port: 8080
